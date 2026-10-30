@@ -1,0 +1,14 @@
+[build]
+  publish = "public"
+
+# Serve the live invitation site through this project. Files in /public
+# (the new share thumbnail) take precedence over this proxy.
+[[redirects]]
+  from = "/*"
+  to = "https://sheheen-hasana.netlify.app/:splat"
+  status = 200
+
+[[headers]]
+  for = "/share/*"
+  [headers.values]
+    Cache-Control = "public, max-age=86400"

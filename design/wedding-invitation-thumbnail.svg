@@ -1,0 +1,81 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">
+  <defs>
+    <linearGradient id="paper" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#fdfaf4"/>
+      <stop offset="0.5" stop-color="#f8f2e7"/>
+      <stop offset="1" stop-color="#f3ead9"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="0.5" cy="0.47" r="0.55">
+      <stop offset="0" stop-color="#fffdf8" stop-opacity="1"/>
+      <stop offset="0.6" stop-color="#fffaf0" stop-opacity="0.45"/>
+      <stop offset="1" stop-color="#fffaf0" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="warm" cx="0.5" cy="1" r="0.6">
+      <stop offset="0" stop-color="#f1dfb8" stop-opacity="0.55"/>
+      <stop offset="1" stop-color="#f1dfb8" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="gold" x1="0" y1="0" x2="1" y2="0.35">
+      <stop offset="0" stop-color="#8f6a2c"/>
+      <stop offset="0.28" stop-color="#c79b4e"/>
+      <stop offset="0.5" stop-color="#e9cf8f"/>
+      <stop offset="0.72" stop-color="#b98a3e"/>
+      <stop offset="1" stop-color="#8a6326"/>
+    </linearGradient>
+    <linearGradient id="goldV" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#d9b56d"/>
+      <stop offset="1" stop-color="#9c7432"/>
+    </linearGradient>
+    <g id="petal5">
+      <ellipse cx="0" cy="-13" rx="8.5" ry="13"/>
+      <ellipse cx="0" cy="-13" rx="8.5" ry="13" transform="rotate(72)"/>
+      <ellipse cx="0" cy="-13" rx="8.5" ry="13" transform="rotate(144)"/>
+      <ellipse cx="0" cy="-13" rx="8.5" ry="13" transform="rotate(216)"/>
+      <ellipse cx="0" cy="-13" rx="8.5" ry="13" transform="rotate(288)"/>
+    </g>
+    <g id="leaf"><path d="M0 0 C 10 -14, 30 -14, 42 0 C 30 12, 10 12, 0 0 Z"/></g>
+    <g id="rose">
+      <circle r="52" fill="#f6ebe3"/>
+      <circle r="52" fill="none" stroke="#e7d2bd" stroke-width="1.5"/>
+      <path d="M-4 -30 C 22 -32, 36 -8, 26 14 C 16 34, -18 36, -30 16 C -40 -2, -24 -22, -4 -18 C 12 -14, 18 2, 8 12 C -2 20, -16 12, -12 2"
+            fill="none" stroke="#fffaf3" stroke-width="6" stroke-linecap="round"/>
+      <path d="M-4 -30 C 22 -32, 36 -8, 26 14 C 16 34, -18 36, -30 16 C -40 -2, -24 -22, -4 -18 C 12 -14, 18 2, 8 12 C -2 20, -16 12, -12 2"
+            fill="none" stroke="#d9b98f" stroke-width="1.2" stroke-linecap="round" opacity="0.7"/>
+    </g>
+    <g id="cluster">
+      <g fill="#a9b48f" opacity="0.85">
+        <use href="#leaf" transform="translate(112 18) rotate(-20)"/>
+        <use href="#leaf" transform="translate(10 120) rotate(100)"/>
+        <use href="#leaf" transform="translate(70 168) rotate(115) scale(0.8)"/>
+        <use href="#leaf" transform="translate(178 52) rotate(20) scale(0.75)"/>
+      </g>
+      <use href="#rose" transform="translate(56 56)"/>
+      <g transform="translate(140 50)"><use href="#petal5" fill="#efe3d0"/><circle r="5" fill="url(#goldV)"/></g>
+      <g transform="translate(62 130) scale(0.85)"><use href="#petal5" fill="#f1d9cf"/><circle r="5" fill="url(#goldV)"/></g>
+      <g transform="translate(180 100) scale(0.55)"><use href="#petal5" fill="#ecd9ad"/><circle r="5" fill="#fffaf0"/></g>
+    </g>
+  </defs>
+
+  <rect width="1200" height="630" fill="url(#paper)"/>
+  <rect width="1200" height="630" fill="url(#warm)"/>
+  <rect width="1200" height="630" fill="url(#glow)"/>
+
+  <rect x="26" y="26" width="1148" height="578" rx="18" fill="none" stroke="#c9a565" stroke-width="1.6"/>
+  <rect x="37" y="37" width="1126" height="556" rx="12" fill="none" stroke="#d8bf8f" stroke-width="0.8"/>
+
+  <use href="#cluster" transform="translate(30 30)"/>
+  <use href="#cluster" transform="translate(1170 600) rotate(180)"/>
+
+  <text x="600" y="132" text-anchor="middle" font-family="Amiri" font-size="36" fill="url(#gold)" direction="rtl">بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ</text>
+
+  <text x="600" y="180" text-anchor="middle" font-family="Cormorant Garamond" font-weight="500" font-size="22" letter-spacing="6" fill="#8b7350">WEDDING INVITATION</text>
+  <g transform="translate(600 196)" stroke="#c9a565" stroke-width="1">
+    <line x1="-110" y1="0" x2="-12" y2="0"/><line x1="12" y1="0" x2="110" y2="0"/>
+    <path d="M0 -4.5 L4.5 0 L0 4.5 L-4.5 0 Z" fill="#c9a565" stroke="none"/>
+  </g>
+
+  <text x="600" y="282" text-anchor="middle" font-family="Pinyon Script" font-size="78" fill="url(#gold)">Muhammed Sheheen</text>
+  <text x="600" y="372" text-anchor="middle" font-family="Pinyon Script" font-size="78" fill="url(#gold)"><tspan font-size="60">&amp; </tspan>Hazana Asharaf</text>
+
+  <text x="600" y="446" text-anchor="middle" font-family="Cormorant Garamond" font-weight="500" font-size="33" fill="#4a3b2a">Sunday, <tspan font-family="Cormorant Infant">29</tspan> November <tspan font-family="Cormorant Infant">2026</tspan> · <tspan font-family="Cormorant Infant">11:00</tspan> AM</text>
+  <text x="600" y="488" text-anchor="middle" font-family="Cormorant Garamond" font-style="italic" font-weight="500" font-size="25" letter-spacing="0.5" fill="#7d6a52">Chaithanya Convention Centre, Cherpulassery</text>
+</svg>
